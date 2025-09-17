@@ -2,3 +2,9 @@
 * text=auto
 ,kuuk,.":;';";;
 ;
+git init                          # Initialize git in your project directory (if not done yet)
+git add .                         # Add all files to the staging area
+git commit -m "Initial commit"    # Commit your files
+git branch -M main                # Rename default branch to main (optional)
+git remote add origin https://github.com/USERNAME/REPO_NAME.git  # Replace with your repo URL
+git push -u origin main           # Push your code to GitHub
